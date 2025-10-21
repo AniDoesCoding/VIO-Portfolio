@@ -1,0 +1,91 @@
+:root {
+    --flickerstrength: 0;
+}
+
+.holder {
+    position: relative;
+}
+
+.layer {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+#H11, #H11G {
+    animation: h11 4s infinite;
+}
+
+#H12, #B12, #H12G, #B12G {
+    animation: c12 3s infinite;
+}
+
+#B21, #B21G {
+    animation: b2 4s infinite;
+}
+
+#B22, #B22G {
+    animation: b2 6s infinite;
+}
+
+#text1 {
+    animation: t1 10s infinite;
+}
+
+#text2 {
+    animation: t2 10s infinite;
+}
+
+.C3 {
+    opacity: var(--flickerstrength);
+}
+
+@keyframes h11 {
+    0% {transform: translateY(8px);}
+    50% {transform: translateY(-2px);}
+    100% {transform: translateY(8px);}
+}
+
+@keyframes c12 {
+    0% {transform: rotate(1deg);}
+    50% {transform: rotate(-1deg);}
+    100% {transform: rotate(1deg);}
+}
+
+@keyframes b2 {
+    0% {transform: translateY(2px);}
+    50% {transform: translateY(-8px);}
+    100% {transform: translateY(2px);}
+}
+
+@keyframes t1 {
+    0% {transform: translate(-5%, 200px); opacity: 0%;}
+    20% {transform: translate(-5%, 0px); opacity: 100%;}
+    80% {transform: translate(-5%, 0px); opacity: 100%;}
+    90% {transform: translate(-5%, 20px); opacity: 0%;}
+    100% {transform: translate(-5%, 20px); opacity: 0%;}
+}
+
+@keyframes t2 {
+    0% {transform: translate(-5%, 200px); opacity: 0%;}
+    20% {transform: translate(-5%, 200px); opacity: 0%;}
+    40% {transform: translate(-5%, 0px); opacity: 100%;}
+    90% {transform: translate(-5%, 0px); opacity: 100%;}
+    100% {transform: translate(-5%, 20px); opacity: 0%;}
+}
+
+.C11 {
+    filter: brightness(0.5);
+}
+
+.C12 {
+    filter: brightness(1);
+}
+
+.C21 {
+    filter: brightness(0.5);
+}
+
+.C22 {
+    filter: brightness(1);
+}

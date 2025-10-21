@@ -1,0 +1,61 @@
+@font-face {
+    font-family: 'Kat Regular';
+    src: url('fonts/Kat-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Prof Regular';
+    src: url('fonts/Professor-Regular.ttf');
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Professor Regular';
+    overflow-x: hidden;
+    font-size: 52px;
+}
+
+h1 {
+    font-size: 240px;
+    text-align: center;
+    border-bottom: dashed 6px red;
+    animation: title 10s infinite;
+}
+
+@keyframes title {
+    0% {border-color: red;}
+    10% {border-color: orange;}
+    20% {border-color: yellow;}
+    30% {border-color: lime;}
+    40% {border-color: green;}
+    50% {border-color: lightseagreen;}
+    60% {border-color: dodgerblue;}
+    70% {border-color: blue;}
+    80% {border-color: purple;}
+    90% {border-color: deeppink;}
+    100% {border-color: red;}
+}
+
+#intro img {
+    width: 100%;
+}
+
+#showcase img {
+    max-width: 200px;
+}
+
+.holder {
+    position: relative;
+}
+
+.layer {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.bigblock {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
