@@ -14,6 +14,8 @@ body {
     font-family: 'Professor Regular';
     overflow-x: hidden;
     font-size: 52px;
+    background-image: url("../media/showcase/BG_Long.png");
+    background-repeat: no-repeat;
 }
 
 h1 {
@@ -21,6 +23,13 @@ h1 {
     text-align: center;
     border-bottom: dashed 6px red;
     animation: title 10s infinite;
+    width: 100vw;
+}
+
+h2 {
+    font-size: 120px;
+    text-align: center;
+    width: 100vw;
 }
 
 @keyframes title {
@@ -41,8 +50,8 @@ h1 {
     width: 100%;
 }
 
-#showcase img {
-    max-width: 200px;
+.images img {
+    max-width: 320px;
 }
 
 .holder {
@@ -58,4 +67,144 @@ h1 {
 .bigblock {
     display: grid;
     grid-template-columns: 50% 50%;
+}
+
+.miniT1 {
+    transform: translateY(672px) translateX(1020px) rotate(7deg);
+    animation: animT1 3.2s infinite;
+}
+
+.miniT2 {
+    transform: translateY(773px) translateX(30%) rotate(-32deg);
+    animation: animT2 4.5s infinite;
+}
+
+.miniT3 {
+    transform: translateY(42px) translateX(1242px) rotate(-67deg);
+    animation: animT3 5.9s infinite;
+}
+
+.miniT4 {
+    transform: translateY(754px) translateX(607px) rotate(80deg);
+    animation: animT4 4.9s infinite;
+}
+
+.miniT5 {
+    transform: translateY(223px) translateX(323px) rotate(-7deg);
+    animation: animT5 4s infinite;
+}
+
+.miniT6 {
+    transform: translateY(354px) translateX(706px) rotate(-20deg);
+    animation: animT6 5.2s infinite;
+}
+
+.miniT7 {
+    transform: translateY(243px) translateX(206px) rotate(54deg);
+    animation: animT7 3.6s infinite;
+}
+
+.miniT8 {
+    transform: translateY(318px) translateX(683px) rotate(-50deg);
+    animation: animT8 3s infinite;  
+}
+
+@keyframes animT1 {
+    0% {transform: translateY(672px) translateX(1020px) rotate(7deg);}
+    50% {transform: translateY(772px) translateX(1020px) rotate(7deg);}
+    100% {transform: translateY(672px) translateX(1020px) rotate(7deg);}
+}
+
+@keyframes animT2 {
+    0% {transform: translateY(773px) translateX(30%) rotate(-32deg);}
+    50% {transform: translateY(873px) translateX(30%) rotate(-32deg);}
+    100% {transform: translateY(773px) translateX(30%) rotate(-32deg);}
+}
+
+@keyframes animT3 {
+    0% {transform: translateY(42px) translateX(1242px) rotate(-67deg);}
+    50% {transform: translateY(142px) translateX(1242px) rotate(-67deg);}
+    100% {transform: translateY(42px) translateX(1242px) rotate(-67deg);}
+}
+
+@keyframes animT4 {
+    0% {transform: translateY(754px) translateX(607px) rotate(80deg);}
+    50% {transform: translateY(854px) translateX(607px) rotate(80deg);}
+    100% {transform: translateY(754px) translateX(607px) rotate(80deg);}
+}
+
+@keyframes animT5 {
+    0% {transform: translateY(223px) translateX(323px) rotate(-7deg);}
+    50% {transform: translateY(323px) translateX(323px) rotate(-7deg);}
+    100% {transform: translateY(223px) translateX(323px) rotate(-7deg);}
+}
+
+@keyframes animT6 {
+    0% {transform: translateY(354px) translateX(706px) rotate(-20deg);}
+    50% {transform: translateY(454px) translateX(706px) rotate(-20deg);}
+    100% {transform: translateY(354px) translateX(706px) rotate(-20deg);}
+}
+
+@keyframes animT7 {
+    0% {transform: translateY(243px) translateX(206px) rotate(54deg);}
+    50% {transform: translateY(343px) translateX(206px) rotate(54deg);}
+    100% {transform: translateY(243px) translateX(206px) rotate(54deg);}
+}
+
+@keyframes animT8 {
+    0% {transform: translateY(318px) translateX(683px) rotate(-50deg); }
+    50% {transform: translateY(418px) translateX(683px) rotate(-50deg); }
+    100% {transform: translateY(318px) translateX(683px) rotate(-50deg); }
+}
+
+p {
+    background-color: rgba(25, 1, 63, 0.308);
+    padding: 20px;
+    border-radius: 20px;
+}
+
+/*div {
+    background-color: rgba(7, 0, 19, 0.356);
+}*/
+
+#B3_1 {
+    position: absolute;
+    top: -50px;
+    left: 50px;
+    width: 500px;
+}
+
+#B3_2 {
+    position: absolute;
+    top: 0px;
+    left: 650px;
+    width: 500px;
+}
+
+#B3_3 {
+    position: absolute;
+    top: 500px;
+    left: 1200px;
+    width: 500px;
+}
+
+#B4_1 {
+    position: absolute;
+    top: 0px;
+    left: 600px;
+    width: 500px;
+}
+
+#B4_2 {
+    position: absolute;
+    top: 350px;
+    left: 100px;
+    width: 500px;
+}
+
+#B4_3 {
+    position: absolute;
+    top: 1000px;
+    left: 500px;
+    width: 500px;
 }
