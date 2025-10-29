@@ -56,6 +56,7 @@ h2 {
 
 .holder {
     position: relative;
+    width: 100vw;
 }
 
 .layer {
@@ -110,51 +111,51 @@ h2 {
 }
 
 @keyframes animT1 {
-    0% {transform: translateY(672px) translateX(1020px) rotate(7deg);}
-    50% {transform: translateY(772px) translateX(1020px) rotate(7deg);}
-    100% {transform: translateY(672px) translateX(1020px) rotate(7deg);}
+    0% {transform: translateY(67vh) translateX(70vw) rotate(7deg);}
+    50% {transform: translateY(77vh) translateX(70vw) rotate(7deg);}
+    100% {transform: translateY(67vh) translateX(70vw) rotate(7deg);}
 }
 
 @keyframes animT2 {
-    0% {transform: translateY(773px) translateX(30%) rotate(-32deg);}
-    50% {transform: translateY(873px) translateX(30%) rotate(-32deg);}
-    100% {transform: translateY(773px) translateX(30%) rotate(-32deg);}
+    0% {transform: translateY(77vh) translateX(30vw) rotate(-32deg);}
+    50% {transform: translateY(87vh) translateX(30vw) rotate(-32deg);}
+    100% {transform: translateY(77vh) translateX(30vw) rotate(-32deg);}
 }
 
 @keyframes animT3 {
-    0% {transform: translateY(42px) translateX(1242px) rotate(-67deg);}
-    50% {transform: translateY(142px) translateX(1242px) rotate(-67deg);}
-    100% {transform: translateY(42px) translateX(1242px) rotate(-67deg);}
+    0% {transform: translateY(4vh) translateX(80vw) rotate(-67deg);}
+    50% {transform: translateY(14vh) translateX(80vw) rotate(-67deg);}
+    100% {transform: translateY(4vh) translateX(80vw) rotate(-67deg);}
 }
 
 @keyframes animT4 {
-    0% {transform: translateY(754px) translateX(607px) rotate(80deg);}
-    50% {transform: translateY(854px) translateX(607px) rotate(80deg);}
-    100% {transform: translateY(754px) translateX(607px) rotate(80deg);}
+    0% {transform: translateY(75vh) translateX(30vw) rotate(80deg);}
+    50% {transform: translateY(85vh) translateX(30vw) rotate(80deg);}
+    100% {transform: translateY(75vh) translateX(30vw) rotate(80deg);}
 }
 
 @keyframes animT5 {
-    0% {transform: translateY(223px) translateX(323px) rotate(-7deg);}
-    50% {transform: translateY(323px) translateX(323px) rotate(-7deg);}
-    100% {transform: translateY(223px) translateX(323px) rotate(-7deg);}
+    0% {transform: translateY(22vh) translateX(10vw) rotate(-7deg);}
+    50% {transform: translateY(32vh) translateX(10vw) rotate(-7deg);}
+    100% {transform: translateY(22vh) translateX(10vw) rotate(-7deg);}
 }
 
 @keyframes animT6 {
-    0% {transform: translateY(354px) translateX(706px) rotate(-20deg);}
-    50% {transform: translateY(454px) translateX(706px) rotate(-20deg);}
-    100% {transform: translateY(354px) translateX(706px) rotate(-20deg);}
+    0% {transform: translateY(35vh) translateX(35vw) rotate(-20deg);}
+    50% {transform: translateY(45vh) translateX(35vw) rotate(-20deg);}
+    100% {transform: translateY(35vh) translateX(35vw) rotate(-20deg);}
 }
 
 @keyframes animT7 {
-    0% {transform: translateY(243px) translateX(206px) rotate(54deg);}
-    50% {transform: translateY(343px) translateX(206px) rotate(54deg);}
-    100% {transform: translateY(243px) translateX(206px) rotate(54deg);}
+    0% {transform: translateY(24vh) translateX(5vw) rotate(54deg);}
+    50% {transform: translateY(34vh) translateX(5vw) rotate(54deg);}
+    100% {transform: translateY(24vh) translateX(5vw) rotate(54deg);}
 }
 
 @keyframes animT8 {
-    0% {transform: translateY(318px) translateX(683px) rotate(-50deg); }
-    50% {transform: translateY(418px) translateX(683px) rotate(-50deg); }
-    100% {transform: translateY(318px) translateX(683px) rotate(-50deg); }
+    0% {transform: translateY(31vh) translateX(40vw) rotate(-50deg); }
+    50% {transform: translateY(41vh) translateX(40vw) rotate(-50deg); }
+    100% {transform: translateY(31vh) translateX(40vw) rotate(-50deg); }
 }
 
 p {
@@ -207,4 +208,179 @@ p {
     top: 1000px;
     left: 500px;
     width: 500px;
+}
+
+#B5_1 {
+    position: absolute;
+    top: 300px;
+    left: 1000px;
+    width: 500px;
+}
+
+#welcomeCircle img {
+    height: 35vw;
+    width: 35vw;
+    max-width: 35vw;
+    top: 20vh;
+    left: 30vw;
+}
+
+#welcomeCircle {
+    display: grid;
+    place-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+#circle1 {
+    animation: spin 7s infinite linear;
+}
+
+#circle2 {
+    animation: spin 6s infinite linear reverse;
+}
+
+#circle3 {
+    animation: spin 5s infinite linear;
+}
+
+#circle4 {
+    animation: spin 4s infinite linear reverse;
+}
+
+#circle5 {
+    animation: spin 3s infinite linear;
+}
+
+#circle6 {
+    animation: spin 2s infinite linear reverse;
+}
+
+#circle7 {
+    animation: spin 1s infinite linear;
+}
+
+#circleM {
+    animation: float 5s infinite;
+}
+
+@keyframes spin {
+    from {transform: rotate(0deg);}
+    to {transform: rotate(360deg);}
+}
+
+@keyframes float {
+    0% {transform: translateY(0); }
+    50% {transform: translateY(5vh); }
+    100% {transform: translateY(0);}
+}
+
+#stringBlock img {
+    top: -10vh;
+}
+
+#stringBlock #string01 {
+    width: 512px;
+    height: 1024px;
+    max-width: 512px;
+    max-height: 1024px;
+    left: -10vw;
+    top: -20vh;
+    animation: stringLoop 4s infinite;
+}
+
+#stringBlock #string02 {
+    width: 512px;
+    height: 1024px;
+    max-width: 512px;
+    max-height: 1024px;
+    left: 0vw;
+    top: -60vh;
+    animation: stringLoop 3s infinite;
+}
+
+#stringBlock #string03 {
+    width: 512px;
+    height: 1024px;
+    max-width: 512px;
+    max-height: 1024px;
+    left: 10vw;
+    top: -40vh;
+    animation: stringLoop 6s infinite;
+}
+
+#stringBlock #string04 {
+    width: 512px;
+    height: 1024px;
+    max-width: 512px;
+    max-height: 1024px;
+    left: 20vw;
+    top: -75vh;
+    animation: stringLoop 10s infinite;
+}
+
+#stringBlock #string05 {
+    width: 512px;
+    height: 1024px;
+    max-width: 512px;
+    max-height: 1024px;
+    left: 30vw;
+    top: -85vh;
+    animation: stringLoop 4s infinite;
+}
+
+#stringBlock #string06 {
+    width: 512px;
+    height: 1024px;
+    max-width: 512px;
+    max-height: 1024px;
+    left: 40vw;
+    top: -90vh;
+    animation: stringLoop 6s infinite;
+}
+
+#stringBlock #string07 {
+    width: 512px;
+    height: 1024px;
+    max-width: 512px;
+    max-height: 1024px;
+    left: 50vw;
+    top: -80vh;
+    animation: stringLoop 9s infinite;
+}
+
+#stringBlock #string08 {
+    width: 512px;
+    height: 1024px;
+    max-width: 512px;
+    max-height: 1024px;
+    left: 60vw;
+    top: -40vh;
+    animation: stringLoop 3s infinite;
+}
+
+#stringBlock #string09 {
+    width: 512px;
+    height: 1024px;
+    max-width: 512px;
+    max-height: 1024px;
+    left: 70vw;
+    top: -10vh;
+    animation: stringLoop 5s infinite;
+}
+
+#stringBlock #string10 {
+    width: 512px;
+    height: 1024px;
+    max-width: 512px;
+    max-height: 1024px;
+    left: 80vw;
+    top: -70vh;
+    animation: stringLoop 7s infinite;
+}
+
+@keyframes stringLoop {
+    0% {transform: translateY(0vh) }
+    50% {transform: translateY(-5vh) }
+    100% {transform: translateY(0vh) }
 }
