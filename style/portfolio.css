@@ -295,7 +295,7 @@ p {
     max-width: 512px;
     max-height: 1024px;
     left: 0vw;
-    top: -60vh;
+    top: -40vh;
     animation: stringLoop 3s infinite;
 }
 
@@ -305,7 +305,7 @@ p {
     max-width: 512px;
     max-height: 1024px;
     left: 10vw;
-    top: -40vh;
+    top: -60vh;
     animation: stringLoop 6s infinite;
 }
 
@@ -355,7 +355,7 @@ p {
     max-width: 512px;
     max-height: 1024px;
     left: 60vw;
-    top: -40vh;
+    top: -50vh;
     animation: stringLoop 3s infinite;
 }
 
@@ -365,7 +365,7 @@ p {
     max-width: 512px;
     max-height: 1024px;
     left: 70vw;
-    top: -10vh;
+    top: -30vh;
     animation: stringLoop 5s infinite;
 }
 
@@ -375,7 +375,7 @@ p {
     max-width: 512px;
     max-height: 1024px;
     left: 80vw;
-    top: -70vh;
+    top: -10vh;
     animation: stringLoop 7s infinite;
 }
 
@@ -383,4 +383,13 @@ p {
     0% {transform: translateY(0vh) }
     50% {transform: translateY(-5vh) }
     100% {transform: translateY(0vh) }
+}
+
+#blank {
+    position: relative;
+    top: 90vh;
+    left: 30vw;
+    width: 30vw;
+    text-align: center;
+    background-color: rgba(25, 1, 63, 0.897);
 }
