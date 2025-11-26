@@ -21,15 +21,17 @@ body {
 h1 {
     font-size: 240px;
     text-align: center;
-    border-bottom: dashed 6px red;
-    animation: title 10s infinite;
     width: 100vw;
+    text-shadow: -4px -4px rgb(39, 2, 82);
+    color: rgb(165, 87, 255);
 }
 
 h2 {
     font-size: 120px;
     text-align: center;
     width: 100vw;
+    text-shadow: -4px -4px rgb(39, 2, 82);
+    color: rgb(165, 87, 255);
 }
 
 @keyframes title {
@@ -147,9 +149,9 @@ h2 {
 }
 
 @keyframes animT7 {
-    0% {transform: translateY(24vh) translateX(5vw) rotate(54deg);}
-    50% {transform: translateY(34vh) translateX(5vw) rotate(54deg);}
-    100% {transform: translateY(24vh) translateX(5vw) rotate(54deg);}
+    0% {transform: translateY(29vh) translateX(5vw) rotate(54deg);}
+    50% {transform: translateY(39vh) translateX(5vw) rotate(54deg);}
+    100% {transform: translateY(29vh) translateX(5vw) rotate(54deg);}
 }
 
 @keyframes animT8 {
@@ -170,51 +172,79 @@ p {
 
 #B3_1 {
     position: absolute;
-    top: -50px;
-    left: 50px;
-    width: 500px;
+    top: -5vh;
+    left: 0vw;
+    width: 25vw;
 }
 
 #B3_2 {
     position: absolute;
-    top: 0px;
-    left: 650px;
-    width: 500px;
+    top: 0vh;
+    left: 35vw;
+    width: 25vw;
 }
 
 #B3_3 {
     position: absolute;
-    top: 500px;
-    left: 1200px;
-    width: 500px;
+    top: 50vh;
+    left: 65vw;
+    width: 25vw;
 }
 
 #B4_1 {
     position: absolute;
-    top: 0px;
-    left: 600px;
-    width: 500px;
+    top: 0vh;
+    left: 30vw;
+    width: 25vw;
 }
 
 #B4_2 {
     position: absolute;
-    top: 350px;
-    left: 100px;
-    width: 500px;
+    top: 35vh;
+    left: 5vw;
+    width: 25vw;
 }
 
 #B4_3 {
     position: absolute;
-    top: 1000px;
-    left: 500px;
-    width: 500px;
+    top: 120vh;
+    left: 5vw;
+    width: 25vw;
 }
 
 #B5_1 {
     position: absolute;
-    top: 300px;
-    left: 1000px;
-    width: 500px;
+    top: 50vh;
+    left: 50vw;
+    width: 25vw;
+}
+
+#B6_1 {
+    position: absolute;
+    top: 5vh;
+    left: 5vw;
+    width: 25vw;
+}
+
+#B6_2 {
+    position: absolute;
+    top: 50vh;
+    left: 50vw;
+    width: 25vw;
+}
+
+#B7_1 {
+    position: absolute;
+    top: 15vh;
+    left: 10vw;
+    width: 25vw;
+}
+
+#B7_2 {
+    position: absolute;
+    top: 70vh;
+    left: 60vw;
+    width: 25vw;
 }
 
 #welcomeCircle img {
@@ -387,7 +417,7 @@ p {
 
 #blank {
     position: relative;
-    top: 90vh;
+    top: 70vh;
     left: 30vw;
     width: 30vw;
     text-align: center;
